@@ -7,10 +7,19 @@ This project is a group project developed as part of the CS214 Data Structures c
 - Rawan Alfouzan 
 - Aljazi Aleqab 
 
-## Files Included:
-1. hospital_reservation_system.cpp: Main C++ code for the system. This file contains all the classes and functions for managing patient and reservation data.
-2. Hospital_Reservation_System.pdf: Project report, including the design, data structure selection, and main functions of the system.
-3. CS214_Project_Presentation.pptx: PowerPoint presentation for the project, summarizing the system's features and design choices.
+## Project Files:
+This project consists of several source files, as well as documentation. Below is a list of the main files included:
+
+### Source Code Files:
+- HospitalReservationSystem.cpp: The core C++ implementation of the reservation system. It includes the main logic for handling patient registration, reservations, and cancellations.
+- HospitalReservationSystem.h: The header file containing the class declarations and function prototypes for the reservation system.
+- Patient.h: Header file that defines the Patient class, including details like name, age, gender, and ID.
+- Reservation.h: Header file that defines the Reservation class, which manages the reservation details such as time, department, and status.
+- main.cpp: The main entry point of the program where the system functions are initialized and executed.
+
+### Documentation Files:
+- DSproject.pdf: The project report that provides detailed information about the design of the system, the data structure selection, and the main functions implemented. It also explains the reasoning behind choosing the linked list and describes the structure and implementation of the code.
+- CS214Project.pdf: This document contains the guidelines provided for the CS214 Data Structures course, outlining the requirements and expectations for the project.
 
 ## Features:
 - Patient Registration: Registers a new patient by storing personal information such as name, gender, and age.
@@ -26,7 +35,7 @@ This project is a group project developed as part of the CS214 Data Structures c
 
 ## How to Run:
 1. Download all the project files.
-2. Open the hospital_reservation_system.cpp file in a C++ IDE or compiler (e.g., GCC).
+2. Open the HospitalReservationSystem.cpp file and other .cpp files in a C++ IDE or compiler (e.g., GCC).
 3. Compile and run the program.
 4. Follow the on-screen menu to interact with the system, including patient registration, reservation scheduling, and cancellations.
 
@@ -36,3 +45,5 @@ This project is a group project developed as part of the CS214 Data Structures c
 
 ## Acknowledgments:
 This project was developed for the CS214 Data Structures course at Qassim University. Special thanks to Dr. Hoba Alsultan for the guidance and support throughout the project.
+
+Feel free to modify the system or use it for your own purposes.
